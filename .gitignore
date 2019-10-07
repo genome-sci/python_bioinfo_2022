@@ -103,9 +103,8 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# for 2-1
 .DS_Store
-2-1/.DS_Store
-2-1/input/.DS_Store
-2-1/output/.DS_Store
+
+# fasta index
+*.fai
 
