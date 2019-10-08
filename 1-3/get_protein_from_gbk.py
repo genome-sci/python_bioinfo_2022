@@ -1,4 +1,9 @@
-# GenBankファイルからCDS配列を取得するスクリプト
+# GenBankファイルからタンパク質配列を取得するスクリプト
+
+# Usage:
+# python get_protein_from_gbk.py input.gbk > output.fasta
+# example:
+# python get_protein_from_gbk.py ../common/s288c.gbk > output.fasta
 
 import sys
 import os
