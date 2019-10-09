@@ -6,9 +6,9 @@
 ## スケジュール
 【10月9日：1日目】
 - 13：00～13：05 講習会説明 （遺伝研・黒川顕） 
-- 13：05～14：35 Pythonの基本文法 （理研・新海典夫）
-- 14：45～16：15 文字列処理、ファイルの読み書き、正規表現 （千葉大・高橋弘喜）
-- 16：25～17：55 Jupyter notebook、Biopython （遺伝研・谷澤靖洋）
+- 13：05～14：35 [Pythonの基本文法 （理研・新海典夫）](https://github.com/genome-sci/pags_workshop_2019/tree/master/1-1)
+- 14：45～16：15 [文字列処理、ファイルの読み書き、正規表現 （千葉大・高橋弘喜）](https://github.com/genome-sci/pags_workshop_2019/tree/master/1-2)
+- 16：25～17：55 [Jupyter notebook、Biopython （遺伝研・谷澤靖洋）]((https://github.com/genome-sci/pags_workshop_2019/tree/master/1-3)
 
 【10月10日：2日目】
 - 10：00～11：30 表形式ファイルの処理（Pandas）、RNA-seqデータの補正　（遺伝研・坂本美佳）  
