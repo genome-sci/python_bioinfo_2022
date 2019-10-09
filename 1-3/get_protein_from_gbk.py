@@ -11,7 +11,7 @@ from Bio import SeqIO
 
 gbk_file_name = sys.argv[1]
 if not os.path.exists(gbk_file_name):
-    sys.stderr.write(f"File not found. [{gbk_file_nam}]\n")
+    sys.stderr.write(f"File not found. [{gbk_file_name}]\n")
     exit(1)
 
 for record in SeqIO.parse(gbk_file_name, "genbank"):
