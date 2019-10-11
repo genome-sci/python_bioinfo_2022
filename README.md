@@ -15,7 +15,7 @@
 - 11：55〜13：15 [視覚化 (matplotlib, seaborn) （農研機構・孫建強）](https://github.com/genome-sci/pags_workshop_2019/tree/master/2-2)
 - 13：15〜14：00 昼食休憩  
 - 14：00〜15：30 [統計的仮説検定 （遺伝研・森宙史）](https://github.com/genome-sci/pags_workshop_2019/tree/master/2-3)
-- 15：40〜17：10 [多変量解析1 （遺伝研・東光一）])https://github.com/genome-sci/pags_workshop_2019/tree/master/2-4)
+- 15：40〜17：10 [多変量解析1 （遺伝研・東光一）](https://github.com/genome-sci/pags_workshop_2019/tree/master/2-4)
 
 【10月11日：3日目】
 - 10：00～13：00 [多変量解析2 （遺伝研・東光一）](https://github.com/genome-sci/pags_workshop_2019/tree/master/3-1)
