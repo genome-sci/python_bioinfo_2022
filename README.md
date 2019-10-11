@@ -11,11 +11,11 @@
 - 16：25～17：55 [Jupyter notebook、Biopython （遺伝研・谷澤靖洋）](https://github.com/genome-sci/pags_workshop_2019/tree/master/1-3)
 
 【10月10日：2日目】
-- 10：00～11：45 表形式ファイルの処理（Pandas）、RNA-seqデータの補正　（遺伝研・坂本美佳）  
-- 11：55〜13：15 視覚化 (matplotlib, seaborn) （農研機構・孫建強）
+- 10：00～11：45 [表形式ファイルの処理（Pandas）、RNA-seqデータの補正　（遺伝研・坂本美佳）](https://github.com/genome-sci/pags_workshop_2019/tree/master/2-1)  
+- 11：55〜13：15 [視覚化 (matplotlib, seaborn) （農研機構・孫建強）](https://github.com/genome-sci/pags_workshop_2019/tree/master/2-2)
 - 13：15〜14：00 昼食休憩  
-- 14：00〜15：30 統計的仮説検定 （遺伝研・森宙史）
-- 15：40〜17：10 多変量解析1 （遺伝研・東光一）
+- 14：00〜15：30 [統計的仮説検定 （遺伝研・森宙史）](https://github.com/genome-sci/pags_workshop_2019/tree/master/2-3)
+- 15：40〜17：10 [多変量解析1 （遺伝研・東光一）])https://github.com/genome-sci/pags_workshop_2019/tree/master/2-4)
 
 【10月11日：3日目】
-- 10：00～13：00 多変量解析2 （遺伝研・東光一）
+- 10：00～13：00 [多変量解析2 （遺伝研・東光一）](https://github.com/genome-sci/pags_workshop_2019/tree/master/3-1)
