@@ -1,21 +1,30 @@
 # 先進ゲノム支援(PAGS)、DDBJ、DBCLS合同情報解析講習会
+
 ## 概要
-- 日時：2019年10月9日（水）13：00 ～　10月11日（金）13：00 
-- 会場：国立遺伝学研究所（DDBJ）静岡県三島市谷田1111  生命情報研究棟（W棟）4階
+- 日時：
+    2022年12月15日（木）12：10 ～　12月16日（金）18：00 
+- 会場：
+    オンライン開催
 - 講習会の[事前準備](https://github.com/genome-sci/pags_workshop_2019/tree/master/0)
+
 ## スケジュール
-【10月9日：1日目】
-- 13：00～13：05 講習会説明 （遺伝研・黒川顕） 
-- 13：05～14：35 [Pythonの基本文法 （理研・新海典夫）](https://github.com/genome-sci/pags_workshop_2019/tree/master/1-1)
-- 14：45～16：15 [文字列処理、ファイルの読み書き、正規表現 （千葉大・高橋弘喜）](https://github.com/genome-sci/pags_workshop_2019/tree/master/1-2)
-- 16：25～17：55 [Jupyter notebook、Biopython （遺伝研・谷澤靖洋）](https://github.com/genome-sci/pags_workshop_2019/tree/master/1-3)
 
-【10月10日：2日目】
-- 10：00～11：45 [表形式ファイルの処理（Pandas）、RNA-seqデータの補正　（遺伝研・坂本美佳）](https://github.com/genome-sci/pags_workshop_2019/tree/master/2-1)  
-- 11：55〜13：15 [視覚化 (matplotlib, seaborn) （農研機構・孫建強）](https://github.com/genome-sci/pags_workshop_2019/tree/master/2-2)
-- 13：15〜14：00 昼食休憩  
-- 14：00〜15：30 [統計的仮説検定 （遺伝研・森宙史）](https://github.com/genome-sci/pags_workshop_2019/tree/master/2-3)
-- 15：40〜17：10 [多変量解析1 （遺伝研・東光一）](https://github.com/genome-sci/pags_workshop_2019/tree/master/2-4)
-
-【10月11日：3日目】
-- 10：00～13：00 [多変量解析2 （遺伝研・東光一）](https://github.com/genome-sci/pags_workshop_2019/tree/master/3-1)
+【12月15日 (木)】
+- 12:10 - 12:20	講習会説明 (遺伝研・黒川+森)
+- 12:20 - 13:50	[文字列処理、ファイルの読み書き、正規表現 (千葉大・高橋)](1-2)
+- 13:50 - 14:00	休憩
+- 14:00 - 15:30	[Jupyter notebook、Biopythonを用いた処理 (遺伝研・谷澤)](1-3)
+- 15:30 - 15:40	休憩
+- 15:40 - 16:10	[Numpy (遺伝研・東)]()
+- 16:10 - 17:00	[表形式ファイルの処理（Pandas） (遺伝研・坂本)](2-1)
+- 17:00 - 18:00	質疑応答
+			
+【12月16日 (金)】
+- 9:20 - 10:50	[視覚化 (matplotlib, seaborn) (遺伝研・望月)](2-2)
+- 10:50 - 11:00	休憩
+- 11:00 - 12:30	[統計的仮説検定 (遺伝研・森)](2-3)
+- 12:30 - 13:20	昼食休憩
+- 13:20 - 14:50	[多変量解析 (遺伝研・東)]()
+- 14:50 - 15:00	休憩
+- 15:00 - 17:00	[pythonを使ったシングルセルRNA-seq解析 (遺伝研・東)]()
+- 17:00 - 18:00	質疑応答
