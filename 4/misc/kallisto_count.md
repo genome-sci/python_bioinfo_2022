@@ -88,7 +88,7 @@ done
 
 ```sh
 chmod +x run_kallisto.sh
-./run_kallisto.sh >trimming.sh.log 2>&1 &
+./run_kallisto.sh >run_kallisto.sh.log 2>&1 &
 ```
 
 effective_lengthとestimate_countでTPMを算出するため、まとめて`estimate_count`と`tpm`を残す
