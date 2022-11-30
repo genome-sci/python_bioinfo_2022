@@ -36,7 +36,9 @@ wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR17223724/SRR17223724
 wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR17223725/SRR17223725
 ```
 
-SRRxxxxxxxxに拡張子.sraをつける（または./SRRxxxxxxxxでファイル指定しないとwebに読みに行ってしまう）
+Accessionリスト　`SRR_Acc_List.txt` も上記ページから取得する
+
+ダウンロードした `SRRxxxxxxxx` に拡張子.sraをつける（または./SRRxxxxxxxxでファイル指定しないとwebに読みに行ってしまう）
 
 ```sh
 % ./fq_dump.sh >fq_dump.sh.log 2>&1 &
