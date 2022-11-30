@@ -1,0 +1,13 @@
+{
+	"n_targets": 117062,
+	"n_bootstraps": 100,
+	"n_processed": 25680594,
+	"n_pseudoaligned": 23746668,
+	"n_unique": 6386269,
+	"p_pseudoaligned": 92.5,
+	"p_unique": 24.9,
+	"kallisto_version": "0.48.0",
+	"index_version": 10,
+	"start_time": "Mon Nov 28 21:02:10 2022",
+	"call": "kallisto quant -i ../ref/GRCm39_kallisto_index -o SRR17223721_exp_kallisto --single -l 165 -s 92.8 -b 100 SRR17223721.trimmed.fastq.gz"
+}
