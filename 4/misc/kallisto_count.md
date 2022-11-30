@@ -1,6 +1,6 @@
 # RNA-seqカウントデータ作成手順
 
-- トリミングとフィルタリング: fastp
+- トリミングとフィルタリング: fastp v0.23.2
 - リードカウント: kallisto v0.48.0
 - リファレンス配列: Ensembl(release 108) GRCm39 http://asia.ensembl.org/Mus_musculus/Info/Index
 からcDNA配列 Mus_musculus.GRCm39.cdna.all.faを入手
@@ -75,7 +75,7 @@ SEQLIBS=(SRR17223720 SRR17223721 SRR17223722 SRR17223723 SRR17223724 SRR17223725
 
 for seqlib in ${SEQLIBS[@]}; do
   result_dir=${seqlib}_exp_kallisto
-  kallisto quant -i ref_GRCm39_kallisto_index \
+  kallisto quant -i GRCm39_kallisto_index \
                  -o ${result_dir} \
                  --single -l 165 -s 92.8 -b 100 \
                  ${seqlib}.trimmed.fastq.gz
