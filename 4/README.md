@@ -36,7 +36,8 @@ DOI:https://doi.org/10.1016/j.isci.2022.103742
 3. リードの前処理 (リードトリミング、クオリティフィルタリングなど) fastp v0.23.2 ( https://github.com/OpenGene/fastp )
 4. 転写産物の定量 kallisto v0.48.0 ( https://github.com/pachterlab/kallisto )
 
-これらの処理の詳しい内容については本講習会では扱いません。何卒ご了承ください。
+これらの処理の詳しい内容については本講習会では扱いませんが、<br>
+手順を[kallisto_count.md](misc/kallisto_count.md)にまとめました。
 
 ## 本講義で行うRNA-seqデータの処理
 
