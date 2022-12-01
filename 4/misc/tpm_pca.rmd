@@ -1,7 +1,7 @@
 ---
-title: "tpm_pcr"
+title: "tpm_pca"
 output: html_document
-date: "2022-11-29"
+date: "2022-12-1"
 ---
 
 ```{r setup, include=FALSE}
@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r tmp_pca, echo=TRUE}
 library(tidyverse)
 
-in_f <- ("output/count_tpm.tsv")
+in_f <- ("../output/count_tpm.tsv")
 tpm <- read_table(in_f)
 tpm_t <- data.table::transpose(tpm, make.names = 1)
 
