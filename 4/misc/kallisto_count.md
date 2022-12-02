@@ -93,5 +93,9 @@ chmod +x run_kallisto.sh
 
 effective_lengthとestimate_countでTPMを算出するため、まとめて`estimate_count`と`tpm`を残す
 
-参考　次世代シーケンサーデータの解析手法 第15回 RNA-seq 解析(その3)<br>
-https://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_15_kadota.pdf
+## 参考
+- 次世代シーケンサーデータの解析手法 第15回 RNA-seq 解析(その3) https://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_15_kadota.pdf
+- kallisto を用いた A. thaliana paired-end リードの転写産物の定量 https://bi.biopapyrus.jp/rnaseq/mapping/kallisto/kallisto-paired.html
+- Quasi-Mappingによって高速にRNA seqの定量を行う Kallisto https://kazumaxneo.hatenablog.com/entry/2018/07/14/180503
+- kallisto Manual http://pachterlab.github.io/kallisto/manual.html
+
