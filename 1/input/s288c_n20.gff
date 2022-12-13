@@ -1,0 +1,20 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build R64
+#!genome-build-accession NCBI_Assembly:GCF_000146045.2
+#!annotation-source SGD R64-2-1
+##sequence-region NC_001133.9 1 230218
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=559292
+NC_001133.9	RefSeq	region	1	230218	.	+	.	ID=id0;Dbxref=taxon:559292;Name=I;chromosome=I;gbkey=Src;genome=chromosome;mol_type=genomic DNA;strain=S288C
+NC_001133.9	RefSeq	telomere	1	801	.	-	.	ID=id1;Dbxref=SGD:S000028862;Note=TEL01L%3B Telomeric region on the left arm of Chromosome I%3B composed of an X element core sequence%2C X element combinatorial repeats%2C and a short terminal stretch of telomeric repeats;gbkey=telomere
+NC_001133.9	RefSeq	origin_of_replication	707	776	.	+	.	ID=id2;Dbxref=SGD:S000121252;Note=ARS102~Autonomously Replicating Sequence;gbkey=rep_origin
+NC_001133.9	RefSeq	gene	1807	2169	.	-	.	ID=gene0;Dbxref=GeneID:851229;Name=PAU8;end_range=2169,.;gbkey=Gene;gene=PAU8;gene_biotype=protein_coding;locus_tag=YAL068C;partial=true;start_range=.,1807
+NC_001133.9	RefSeq	mRNA	1807	2169	.	-	.	ID=rna0;Parent=gene0;Dbxref=GeneID:851229,Genbank:NM_001180043.1;Name=NM_001180043.1;end_range=2169,.;gbkey=mRNA;gene=PAU8;partial=true;product=seripauperin PAU8;start_range=.,1807;transcript_id=NM_001180043.1
+NC_001133.9	RefSeq	exon	1807	2169	.	-	.	ID=id3;Parent=rna0;Dbxref=GeneID:851229,Genbank:NM_001180043.1;end_range=2169,.;gbkey=mRNA;gene=PAU8;partial=true;product=seripauperin PAU8;start_range=.,1807;transcript_id=NM_001180043.1
+NC_001133.9	RefSeq	CDS	1807	2169	.	-	0	ID=cds0;Parent=rna0;Dbxref=SGD:S000002142,GeneID:851229,Genbank:NP_009332.1;Name=NP_009332.1;Note=hypothetical protein%3B member of the seripauperin multigene family encoded mainly in subtelomeric regions;gbkey=CDS;gene=PAU8;product=seripauperin PAU8;protein_id=NP_009332.1
+NC_001133.9	RefSeq	gene	2480	2707	.	+	.	ID=gene1;Dbxref=GeneID:1466426;Name=YAL067W-A;end_range=2707,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=YAL067W-A;partial=true;start_range=.,2480
+NC_001133.9	RefSeq	mRNA	2480	2707	.	+	.	ID=rna1;Parent=gene1;Dbxref=GeneID:1466426,Genbank:NM_001184582.1;Name=NM_001184582.1;end_range=2707,.;gbkey=mRNA;partial=true;product=hypothetical protein;start_range=.,2480;transcript_id=NM_001184582.1
+NC_001133.9	RefSeq	exon	2480	2707	.	+	.	ID=id4;Parent=rna1;Dbxref=GeneID:1466426,Genbank:NM_001184582.1;end_range=2707,.;gbkey=mRNA;partial=true;product=hypothetical protein;start_range=.,2480;transcript_id=NM_001184582.1
+NC_001133.9	RefSeq	CDS	2480	2707	.	+	0	ID=cds1;Parent=rna1;Dbxref=SGD:S000028593,GeneID:1466426,Genbank:NP_878038.1;Name=NP_878038.1;Note=hypothetical protein%3B identified by gene-trapping%2C microarray-based expression analysis%2C and genome-wide homology searching;gbkey=CDS;product=hypothetical protein;protein_id=NP_878038.1
+NC_001133.9	RefSeq	gene	7235	9016	.	-	.	ID=gene2;Dbxref=GeneID:851230;Name=SEO1;end_range=9016,.;gbkey=Gene;gene=SEO1;gene_biotype=protein_coding;locus_tag=YAL067C;partial=true;start_range=.,7235

@@ -1,0 +1,30 @@
+---
+title: "tpm_pca"
+output: html_document
+date: "2022-12-1"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r tmp_pca, echo=TRUE}
+library(tidyverse)
+
+in_f <- ("../output/count_tpm.tsv")
+tpm <- read_table(in_f)
+tpm_t <- data.table::transpose(tpm, make.names = 1)
+
+pca <-prcomp(tpm_t)
+summary(pca)
+
+plotdf <- tibble(pc1 = pca$x[,1],
+                 pc2 = pca$x[,2],
+                 condition = c(1,1,1,2,2,2))
+
+ggplot(plotdf,aes(x=pc1,y=pc2,color=condition))+
+  geom_point() +
+  theme(legend.position = "none") +
+  geom_text(aes(x = pc1 + 200, label=colnames(tpm)[2:7]),hjust =0)+
+  xlim(-7000, 14000)
+```
