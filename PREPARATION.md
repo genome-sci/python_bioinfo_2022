@@ -19,6 +19,7 @@ minicondaインストール後、下記を実行する。
 conda create -n pags2022 python=3.9
 # 仮想環境に切り替え
 conda activate pags2022
+# モジュールインストール
 conda install -c conda-forge jupyter
 conda install -c bioconda biopython bcbiogff
 conda install -c conda-forge matplotlib-venn
@@ -30,7 +31,7 @@ conda install -c conda-forge scikit-misc
 conda install -c conda-forge joypy
 ```
 
-また、本ディレクトリに含まれる `env.yaml` ファイルを使って
+また、本レポジトリに含まれる `env.yaml` ファイルを使って
 ```
 conda env create -f env.yml
 ```
