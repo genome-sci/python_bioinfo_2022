@@ -5,7 +5,7 @@
     2022年12月15日（木）12：10 ～ 12月16日（金）18：00 
 - 会場：
     オンライン開催
-- 講習会の[事前準備](https://github.com/genome-sci/pags_workshop_2019/tree/master/0)
+- 講習会の[事前準備](PREPARATION.md)
 
 ## スケジュール
 
